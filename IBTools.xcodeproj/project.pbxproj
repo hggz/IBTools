@@ -13,6 +13,7 @@
 		90D4E7E41DD64FFF00ADCCFE /* IBView.h in Headers */ = {isa = PBXBuildFile; fileRef = 90D4E7E21DD64FFF00ADCCFE /* IBView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		90D4E7E51DD64FFF00ADCCFE /* IBView.m in Sources */ = {isa = PBXBuildFile; fileRef = 90D4E7E31DD64FFF00ADCCFE /* IBView.m */; };
 		90D4E7E61DD64FFF00ADCCFE /* IBView.m in Sources */ = {isa = PBXBuildFile; fileRef = 90D4E7E31DD64FFF00ADCCFE /* IBView.m */; };
+		90D4E84A1DD6855A00ADCCFE /* IBGlobal.h in Headers */ = {isa = PBXBuildFile; fileRef = 90D4E8481DD6855A00ADCCFE /* IBGlobal.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +35,7 @@
 		90D4E7D81DD64FD900ADCCFE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		90D4E7E21DD64FFF00ADCCFE /* IBView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IBView.h; sourceTree = "<group>"; };
 		90D4E7E31DD64FFF00ADCCFE /* IBView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IBView.m; sourceTree = "<group>"; };
+		90D4E8481DD6855A00ADCCFE /* IBGlobal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IBGlobal.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +80,7 @@
 			children = (
 				90D4E7CB1DD64FD800ADCCFE /* IBTools.h */,
 				90D4E7CC1DD64FD800ADCCFE /* Info.plist */,
+				90D4E8481DD6855A00ADCCFE /* IBGlobal.h */,
 				90D4E7E21DD64FFF00ADCCFE /* IBView.h */,
 				90D4E7E31DD64FFF00ADCCFE /* IBView.m */,
 			);
@@ -101,6 +104,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				90D4E7E41DD64FFF00ADCCFE /* IBView.h in Headers */,
+				90D4E84A1DD6855A00ADCCFE /* IBGlobal.h in Headers */,
 				90D4E7D91DD64FD900ADCCFE /* IBTools.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -398,6 +402,7 @@
 				90D4E7DE1DD64FD900ADCCFE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		90D4E7DF1DD64FD900ADCCFE /* Build configuration list for PBXNativeTarget "IBToolsTests" */ = {
 			isa = XCConfigurationList;
@@ -406,6 +411,7 @@
 				90D4E7E11DD64FD900ADCCFE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

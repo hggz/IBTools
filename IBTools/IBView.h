@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "IBGlobal.h"
 
 @class IBView;
 @protocol IBViewListener <NSObject>
