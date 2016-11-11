@@ -154,6 +154,7 @@
 		90D4E7BF1DD64FD800ADCCFE /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = IB;
 				LastUpgradeCheck = 0800;
 				ORGANIZATIONNAME = "Cat Bakery";
 				TargetAttributes = {
