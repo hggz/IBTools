@@ -2,11 +2,13 @@
 //  IBTools.h
 //  IBTools
 //
-//  Created by hugogonzalez on 11/11/16.
+//  Created by Hugo Gonzalez on 11/11/16.
 //  Copyright © 2016 Cat Bakery. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
+
+#import <IBTools/IBView.h>
 
 //! Project version number for IBTools.
 FOUNDATION_EXPORT double IBToolsVersionNumber;

@@ -10,6 +10,9 @@
 		90D4E7D21DD64FD900ADCCFE /* IBTools.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90D4E7C81DD64FD800ADCCFE /* IBTools.framework */; };
 		90D4E7D71DD64FD900ADCCFE /* IBToolsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 90D4E7D61DD64FD900ADCCFE /* IBToolsTests.m */; };
 		90D4E7D91DD64FD900ADCCFE /* IBTools.h in Headers */ = {isa = PBXBuildFile; fileRef = 90D4E7CB1DD64FD800ADCCFE /* IBTools.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		90D4E7E41DD64FFF00ADCCFE /* IBView.h in Headers */ = {isa = PBXBuildFile; fileRef = 90D4E7E21DD64FFF00ADCCFE /* IBView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		90D4E7E51DD64FFF00ADCCFE /* IBView.m in Sources */ = {isa = PBXBuildFile; fileRef = 90D4E7E31DD64FFF00ADCCFE /* IBView.m */; };
+		90D4E7E61DD64FFF00ADCCFE /* IBView.m in Sources */ = {isa = PBXBuildFile; fileRef = 90D4E7E31DD64FFF00ADCCFE /* IBView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +32,8 @@
 		90D4E7D11DD64FD900ADCCFE /* IBToolsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IBToolsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		90D4E7D61DD64FD900ADCCFE /* IBToolsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IBToolsTests.m; sourceTree = "<group>"; };
 		90D4E7D81DD64FD900ADCCFE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		90D4E7E21DD64FFF00ADCCFE /* IBView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IBView.h; sourceTree = "<group>"; };
+		90D4E7E31DD64FFF00ADCCFE /* IBView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IBView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +78,8 @@
 			children = (
 				90D4E7CB1DD64FD800ADCCFE /* IBTools.h */,
 				90D4E7CC1DD64FD800ADCCFE /* Info.plist */,
+				90D4E7E21DD64FFF00ADCCFE /* IBView.h */,
+				90D4E7E31DD64FFF00ADCCFE /* IBView.m */,
 			);
 			path = IBTools;
 			sourceTree = "<group>";
@@ -93,6 +100,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				90D4E7E41DD64FFF00ADCCFE /* IBView.h in Headers */,
 				90D4E7D91DD64FD900ADCCFE /* IBTools.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -195,6 +203,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				90D4E7E51DD64FFF00ADCCFE /* IBView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -203,6 +212,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				90D4E7D71DD64FD900ADCCFE /* IBToolsTests.m in Sources */,
+				90D4E7E61DD64FFF00ADCCFE /* IBView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -323,6 +333,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = IBTools/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.catbakery.IBTools;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -340,6 +351,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = IBTools/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.catbakery.IBTools;
 				PRODUCT_NAME = "$(TARGET_NAME)";
