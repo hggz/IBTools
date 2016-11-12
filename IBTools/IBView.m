@@ -28,8 +28,9 @@
     self.isInterfaceBuilder = YES;
 }
 
+// Added swift support since nsstringfromclass returns TargetName.ClassName
 - (void)sharedInitialization {
-    UIView *view = [[[NSBundle bundleForClass:[self class]] loadNibNamed:NSStringFromClass([self class]) owner:self options:nil] firstObject];
+    UIView *view = [[[NSBundle bundleForClass:[self class]] loadNibNamed:[NSStringFromClass([self class]) componentsSeparatedByString:@"."].lastObject owner:self options:nil] firstObject];
     [self addSubview:view];
     view.frame = self.bounds;
 }
