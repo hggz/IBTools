@@ -13,7 +13,7 @@
 		90D4E7E41DD64FFF00ADCCFE /* IBView.h in Headers */ = {isa = PBXBuildFile; fileRef = 90D4E7E21DD64FFF00ADCCFE /* IBView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		90D4E7E51DD64FFF00ADCCFE /* IBView.m in Sources */ = {isa = PBXBuildFile; fileRef = 90D4E7E31DD64FFF00ADCCFE /* IBView.m */; };
 		90D4E7E61DD64FFF00ADCCFE /* IBView.m in Sources */ = {isa = PBXBuildFile; fileRef = 90D4E7E31DD64FFF00ADCCFE /* IBView.m */; };
-		90D4E84A1DD6855A00ADCCFE /* IBGlobal.h in Headers */ = {isa = PBXBuildFile; fileRef = 90D4E8481DD6855A00ADCCFE /* IBGlobal.h */; };
+		90D4E84A1DD6855A00ADCCFE /* IBGlobal.h in Headers */ = {isa = PBXBuildFile; fileRef = 90D4E8481DD6855A00ADCCFE /* IBGlobal.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */

@@ -8,6 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
+#import <IBTools/IBGlobal.h>
 #import <IBTools/IBView.h>
 
 //! Project version number for IBTools.
