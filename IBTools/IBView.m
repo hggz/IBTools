@@ -8,7 +8,7 @@
 
 #import "IBView.h"
 
-@implementation IBView
+/*@implementation IBView
 
 - (instancetype)initWithCoder:(NSCoder *)aDecoder {
     if ((self = [super initWithCoder:aDecoder])) {
@@ -57,3 +57,4 @@
 }
 
 @end
+*/
